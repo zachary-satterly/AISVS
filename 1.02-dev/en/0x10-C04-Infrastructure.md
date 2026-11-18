@@ -16,6 +16,7 @@ Untrusted AI models must be isolated in secure sandboxes, and sensitive AI workl
 | **4.1.2** | **Verify that** model artifact loading enforces an explicit allow-list of serialization formats that do not permit arbitrary code execution during deserialization. | 1 |
 | **4.1.3** | **Verify that** workload attestation is performed before model loading to provide proof that the execution environment has not been tampered with. | 3 |
 | **4.1.4** | **Verify that** confidential inference services protect model weights during runtime through isolated execution environments. | 3 |
+| **4.1.5** | **Verify that** model artifact loading enforces an explicit allow-list for executable code that a model artifact supplies or references. | 1 |
 
 ---
 

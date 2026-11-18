@@ -209,6 +209,7 @@ Isolate models, tools, agents, and hardware workloads to contain failures and pr
 | Allow-list of serialization formats that do not permit code execution during deserialization | C4.1.2 |
 | Workload attestation before model loading | C4.1.3 |
 | Confidential inference protecting model weights at runtime through isolated execution | C4.1.4 |
+| Allow-list for executable code that a model artifact supplies or references at load | C4.1.5 |
 | Trusted execution environment with hardware-enforced isolation, memory encryption, and integrity protection | C4.2.2 |
 | GPU integrity validation via hardware attestation before each workload | C4.2.3 |
 | GPU memory partitioning with sanitization between jobs | C4.2.4 |
